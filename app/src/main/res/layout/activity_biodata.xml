@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".Biodata"
+    android:background="@color/light_blue">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<!--   Jumbotron-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="163dp"
+        android:layout_height="163dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/profile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drs. Santoso, M.M."
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:fontFamily="arial" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kepala Sekolah"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:fontFamily="arial" />
+
+    </LinearLayout>
+<!--Akhir Jumbotron-->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15sp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="@color/blue"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="7dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="arial"
+                android:text="Nama Lengkap : Drs. Santoso, M.M."
+                android:textColor="#fff"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="arial"
+                android:text="NIP : 19670614 199412 1 004"
+                android:textColor="#fff"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="arial"
+                android:text="NUPTK : 2946-7456-4720-0032"
+                android:textColor="#fff"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="arial"
+                android:text="Tempat / Tanggal Lahir : Grobogan, 14 Juni 1967"
+                android:textColor="#fff"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="arial"
+                android:text="Pendidikan Tertinggi : S2"
+                android:textColor="#fff"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="arial"
+                android:text="Jabatan : Kepala Sekolah"
+                android:textColor="#fff"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="arial"
+                android:text="Pangkat / Golongan : Pembina Tingkat I / IV. B"
+                android:textColor="#fff"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="arial"
+                android:text="Tugas Mengajar : Kepala Sekolah"
+                android:textColor="#fff"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="arial"
+                android:text="Nama Sekolah : SMKN 1 SAYUNG"
+                android:textColor="#fff"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="arial"
+                android:text="Alamat Sekolah :
+Jl. Semarang - Demak KM 14, Sayung, Kab. Demak"
+                android:textColor="#fff"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="157dp"
+                android:fontFamily="arial"
+                android:text="Alamat Rumah : Jl. Mintojiwo Dalam IIII/12 RT 07 RW 04, Gisikdrono Semarang"
+                android:textColor="#fff"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMKN 1 SAYUNG"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#f0ffff"/>
+</LinearLayout>
+</ScrollView>
