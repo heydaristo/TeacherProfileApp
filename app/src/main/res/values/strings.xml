@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">TeacherProfileApps</string>
-    <string name="paksantoso"><u>Drs. Santoso, M.M.</u></string>
+    <string name="paksantoso">Profile <u>Drs. Santoso, M.M.</u></string>
+    <string name="button_smk"><b>Profile SMK SAYUNG</b></string>
+    <string name="profile"><u>           Profile            </u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

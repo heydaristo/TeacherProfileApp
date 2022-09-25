@@ -10,8 +10,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val btn = findViewById<Button>(R.id.login_button)
+        val btnjurusan = findViewById<Button>(R.id.jurusansmk_button)
         btn.setOnClickListener {
             val Intent = Intent(this,Biodata::class.java)
+            startActivity(Intent)
+        }
+        btnjurusan.setOnClickListener {
+            val Intent = Intent(this,JurusanSmk::class.java)
             startActivity(Intent)
         }
     }

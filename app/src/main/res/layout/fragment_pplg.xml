@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B7FF5900"
+    tools:context=".BusanaFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="PENGEMBANGAN PERANGKAT LUNAK DAN GIM"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:layout_marginTop="10sp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Program Pengembangan Perangkat Lunak dan GIM atau sebelumnya keahlian Rekayasa Perangkat Lunak (RPL) adalah salah satu kompetensi keahlian dalam bidang Teknologi Komputer dan Informatika yang secara khusus mempelajari tentang pemrograman komputer."
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="100sp"
+        android:textAlignment="center"/>
+</FrameLayout>
