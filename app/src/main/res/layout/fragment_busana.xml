@@ -1,28 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#B300FF"
     tools:context=".BusanaFragment">
-
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="TATA BUSANA"
         android:textStyle="bold"
         android:textColor="#fff"
-        android:textSize="25sp"
+        android:textSize="27sp"
         android:layout_marginTop="10sp"
         android:textAlignment="center"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Jurusan Tata Busana adalah Jurusan yang diperuntukkan bagi mereka yang ingin mengembangkan bakat dan minatnya dalam hal jahit menjahit, sampai dengan membuat produk yang berkualitas. Pada intinya jurusan ini mengakomodir para siswa yang memiliki minat dalam hal fashion"
-        android:textSize="20sp"
+        android:textSize="23sp"
         android:textColor="#fff"
         android:fontFamily="sans-serif"
         android:layout_marginTop="70sp"
         android:textAlignment="center"/>
-
+    <ImageView
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/busana"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"/>
 </FrameLayout>
+</ScrollView>

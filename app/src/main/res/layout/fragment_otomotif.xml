@@ -1,25 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FF5252"
+    android:background="#E30808"
     tools:context=".OtomotifFragment">
-
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="TEKNIK OTOMOTIF"
+        android:text="TEKNIK SEPEDA MOTOR"
         android:textStyle="bold"
         android:textSize="25sp"
+        android:textColor="#fff"
         android:layout_marginTop="10sp"
         android:textAlignment="center"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Jurusan Teknik Otomotif akan mempelajari terkait segala cara maupun proses dalam pengoperasian dan pembuatan kendaraan yang beroperasi di darat seperti mobil, truk, motor, kereta, serta bus."
-        android:textSize="20sp"
+        android:text="Teknik Sepeda Motor (TSM) adalah kompetensi keahlian pada Bidang Studi Keahlian Teknologi dan Rekayasa Program Studi Keahlian Teknik Otomotif yang menekankan pada keterampilan pelayanan jasa mekanik kendaraan sepeda motor roda dua."
+        android:textSize="22sp"
+        android:textColor="#fff"
         android:fontFamily="sans-serif"
         android:layout_marginTop="70sp"
         android:textAlignment="center"/>
+    <ImageView
+        android:layout_width="350sp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tsm1"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
 </FrameLayout>
+</ScrollView>
