@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dff"
+    tools:context=".visimisi">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visi"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#002AFF"
+            android:textSize="28sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:text="Mewujudkan sumber daya manusia yang religius, unggul, handal, profesional, berkompeten dan mampu bersaing di era global."
+            android:textSize="21sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Misi"
+            android:layout_marginTop="5sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#002AFF"
+            android:textSize="28sp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="1. Menyiapkan tamatan yang bertaqwa dengan menjunjung nilai- nilai agama melalui budaya religius dan berbudi luhur, mempunyai etos kerja dan berjiwa wirausaha."
+                android:textSize="21sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="2. Menjadikan sekolah yang unggul dengan menyelenggarakan pendidikan yang relevan dengan perkembangan ilmu pengetahuan dan teknologi."
+                android:textSize="21sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="3. Meningkatkan daya serap tamatan di dunia usaha / dunia kerja industri dan melanjutkan pendidikan kejenjang yang lebih tinggi."
+                android:textSize="21sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="4. Menyiapkan tenaga terampil dan profesional yang mampu bersaing di pasar kerja nasional maupun internasional."
+                android:textSize="21sp"/>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

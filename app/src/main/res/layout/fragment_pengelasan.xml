@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B7000000"
+    android:background="#B7000000">
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
     tools:context=".PengelasanFragment">
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -24,5 +26,11 @@
         android:fontFamily="sans-serif"
         android:layout_marginTop="90sp"
         android:textAlignment="center"/>
-
+    <ImageView
+        android:layout_width="380sp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tpfl"
+        android:layout_gravity="center"
+        android:layout_marginTop="65sp"/>
 </FrameLayout>
+</ScrollView>

@@ -3,6 +3,7 @@ package com.heydar.teacherprofileapps
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.fragment.app.Fragment
 
 class JurusanSmk : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,6 +15,12 @@ class JurusanSmk : AppCompatActivity() {
         val btnPplg = findViewById<Button>(R.id.btnPplg)
         val btnKuliner = findViewById<Button>(R.id.btnKuliner)
         val btnBusana = findViewById<Button>(R.id.btnBusana)
+
+        var fragment : Fragment = visimisi()
+
+        val fragmentTransaction = supportFragmentManager.beginTransaction()
+        fragmentTransaction.replace(R.id.fragmentContainer, fragment)
+        fragmentTransaction.commit()
 
         btnTo.setOnClickListener {
             val fragmentpindah = supportFragmentManager.beginTransaction()
