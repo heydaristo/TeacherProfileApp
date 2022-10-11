@@ -31,6 +31,6 @@
         android:layout_height="wrap_content"
         android:src="@drawable/kuliner"
         android:layout_gravity="center"
-        android:layout_marginTop="100sp"/>
+        android:layout_marginTop="120sp"/>
 </FrameLayout>
 </ScrollView>
