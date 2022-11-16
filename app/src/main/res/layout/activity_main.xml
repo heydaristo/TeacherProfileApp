@@ -20,6 +20,7 @@
         android:layout_height="145sp"
         android:src="@drawable/logo1" />
     <LinearLayout
+        android:id="@+id/linearSatu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="5sp"
@@ -47,6 +48,7 @@
     </LinearLayout>
 <!--  Tombol / Button  -->
     <LinearLayout
+        android:id="@+id/linearDua"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15sp"
